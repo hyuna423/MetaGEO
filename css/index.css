@@ -317,6 +317,6 @@ footer .footer_wrap p.ps{
   font-size: 0.8em;
 }
 
-footer .footer_wrap .footer_content p:hover{
+footer .footer_wrap .footer_content .whitePaper p:hover{
   color: #fff;
 }
