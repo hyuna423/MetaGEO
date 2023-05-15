@@ -291,6 +291,7 @@ footer .footer_wrap .footer_content h4{
 footer .footer_wrap .footer_content p{
   color: #9e9e9e;
   font-weight: 600;
+  transition: all 0.4s;
 }
 
 footer .footer_wrap .footer_content .community a{
@@ -314,4 +315,8 @@ footer .footer_wrap p.ps{
   text-align: center;
   color: #4E4E4E;
   font-size: 0.8em;
+}
+
+footer .footer_wrap .footer_content p:hover{
+  color: #fff;
 }
