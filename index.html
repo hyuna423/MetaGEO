@@ -6,7 +6,7 @@
   <title>메타지오 | MetaGEO</title>
 
   <!--meta-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
   <meta http-equiv="X-UA-Compatible" content="le=edge">
 
   <!--bootstrap-->
@@ -22,14 +22,14 @@
   <link rel="stylesheet" href="css/moblie.css">
 
   <!--favicon--->
-  <link href="img/favicon1.ico" rel="icon">
-  <link href="img/favicon1.ico" rel="apple-touch-icon">
+  <link href="img/favicon.ico" rel="icon">
+  <link href="img/favicon.ico" rel="apple-touch-icon">
 
   <!--js-->
-  <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="js/menu_scroll.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  
+
 </head>
 
 
@@ -39,23 +39,19 @@
 
   <header>
 
-    <div class="">
+    <div class="header inner">
 
-      <hgroup>
+      <h1><a href="index.html"><img src="img/metageo_logo200 1.png" alt="logo"></a></h1>
 
-        <h1><img src="img/" alt="logo"></h1>
+      <nav class="pc_wrap">
+        <ul class="strip colour-1">
 
-      </hgroup>
-
-
-      <nav class="">
-        <ul>
-
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">MetaGEO Coin</a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
+          <li><a href="index_eng.html"><img src="img/lnagsIcon.png" alt="lnagsIcon"></a></li>
 
         </ul>
       </nav>
@@ -63,21 +59,28 @@
 
       <!--반응형-->
 
-      <div class="">
-
-        <img src="img/" alt="menu_button">
-
+      <div class="menu-trigger icon nav-icon-1">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
 
-      <nav class="">
+      <nav class="mob_nav">
 
-        <ul>
+        <ul class="strip colour-1">
 
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">MetaGEO Coin</a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
+          <li><a href="index_eng.html"><img src="img/lnagsIcon.png" alt="lnagsIcon"></a></li>
 
         </ul>
 
@@ -85,22 +88,92 @@
 
       <!--반응형 js-->
       <script type="text/javascript">
+
         $(function () {
-          $("").click(function () {
-            $("").animate({ width: "toggle" }, 250);
+          $(".menu-trigger").click(function () {
+            $(".mob_nav").animate({ width: "toggle" }, 300);
           });
         });
 
       </script>
 
-    </div>
+<script src="js/burger.js"></script>
+<script src="js/header.js"></script>
+</div>
 
   </header>
 
   <main>
+    <section id="home">
+      <div class="home_wrap container">
+        <div class="txt_wrap">
+          <div class="txt_area">
+            <h2>MetaGEO</h2>
+            <p>블록체인으로 새로운 시대를 맞는 부동산 거래 <br>
+              새로운 수입원, 새로운 시장, 새로운 미래<br>
+              수 천 년 부동산 거래의 관행을 깨고 최신 블록체인 기술을 통한<br>
+              새로운 시장열어가는 메타지오. </p>
+            <p>시장의 선두로 나섭니다.</p>
+          </div>
+          <div class="btn_area">
+            <button
+              class="button button--wayra button--border-medium button--text-upper button--size-s button--text-thick button--inverted">
+              Whitepaper
+            </button>
+            <button
+              class="button button--wayra button--border-medium button--text-upper button--size-s button--text-thick button--inverted">
+              Wallet
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="about">
+      <div class="intro1 container">
+        <div class="intro1_txt">
+          <h3>Intro</h3>
+          <p>리조트, 호텔과 같은 대형 부동산 물건의 거래에는 너무나도 많은 어려움과 위험이 도사리고 있습니다. <br>
+            거래과정에서의 비효율성, 높은 중간 수수료, 일부 자본가들에게만 허락되는 기회<br>
+            메타지오의 블록체인 방식 NFT 거래를 통하여 전세계 사람들 누구나 쉽고 빠르게 24시간 거래되는 분할 NFT방식의 거래로<br>
+            누구나 참여 가능한 대규모 부동산 거래를 가능하게 하여 시장에 큰 활력을 불어넣겠습니다</p>
+        </div>
+        <div class="intro1_img">
+          <div class="img_txt">
+            <h4>NFT</h4>
+            <h5 class="line">BLOCKCHAIN</h5>
+            <h5>NFT REAL ESTATE</h5>
+          </div>
+          <div class="img_img">
+            <img src="img/intro.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about2">
+      <div class="intro2 container">
+        <h3><span>MetaGEO</span> BLOCKCHAIN PROTOCOL</h3>
+        <p>블록체인의 투명성, 자료의 일관성, 객관성은 부동산 거래 뿐 아니라 모든 실물거래의 효율성과 거래 투명성에 크게 기여 할 수 있습니다. <br>
+          지금까지 수 십 억 건의 거래를 통해 안전성, 비용효율성, 투명성이 검증 된 ERC20에 NFT의 효율적인 거래를 통해 역시 투명성과 효율성이 공인된 ERC721 솔루션이 도입됩니다. <br>
+          부동산 거래. 더 이상 제한된 정보와 불투명한 평가기준에 의존하지 않고 누구나 동의할 수 있는 안전성과 투명성이 보장되는 거래를 할 수 있습니다</p>
+      </div>
+    </section>
+
+    <section id="about3">
+      <div class="intro3 container">
+        <h3><span>MetaGEO</span> 사업참여 가능자 및 각 참여자 혜택</h3>
+        <img src="img/intro2.png" alt="intro2img">
+        <ul>
+          <li>· 부동산 NFT 작품 출품 희망 부동산 소유주</li>
+          <li>· 부동산 NFT 거래 플랫폼</li>
+          <li>· 부동산 NFT제작 전문 업체</li>
+          <li>· 부동산 NFT 개인 및 기관투자자</li>
+        </ul>
+      </div>
+    </section>
   </main>
-  
+
   <footer>
 
   </footer>
@@ -108,7 +181,6 @@
   <script>
     AOS.init();
   </script>
-
 
 </body>
 

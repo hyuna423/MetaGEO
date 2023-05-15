@@ -1,18 +1,54 @@
 
 /*데탑*/
 @media screen and (max-width:1440px) {
+
+  #home::before {
+    width: 46%;
+  }
 }
 
 
 
 /*노트북*/
   @media screen and (max-width:1024px) {
+    h3 {
+      font-size: 2.5rem;
+    }
+
+    #home::before {
+      width: 50%;
+    }
 }
 
 
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+
+    header .pc_wrap {
+      width: 80%;
+  }
+
+  #home::before {
+    width: 70%;
+}
+
+#about .intro1 .intro1_txt p br{
+  display: none;
+}
+
+#about::before {
+  height: 59%;
+}
+
+#about .intro1 .intro1_txt {
+  margin-bottom: 15%;
+}
+
+#about3 ul li {
+  width: 48%;
+  font-size: 1rem;
+}
 }
 
 
@@ -21,6 +57,29 @@
 
 @media screen and (max-width:767px) {
 
+.menu-trigger {
+  display: block;
+}
+
+header .pc_wrap {
+  display: none;
+}
+
+#home::before {
+  width: 82%;
+}
+
+#about::before {
+  height: 49%;
+}
+
+#about2 p br{
+  display: none;
+}
+
+#about3 ul li {
+  width: 100%;
+}
 }
 
 
@@ -29,6 +88,20 @@
 
 @media screen and (max-width:576px) {
 
+  #home::before {
+    width: 100%;
+    height: 70%;
+    top: 55%;
+    transform: translateY(-50%);
+}
+
+  #about .intro1 .intro1_img {
+    flex-direction: column;
+  }
+
+  #about::before {
+    height: 59%;
+}
 }
 
 
