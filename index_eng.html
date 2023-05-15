@@ -41,23 +41,19 @@
 
   <header>
 
-    <div class="">
+    <div class="header inner">
 
-      <hgroup>
+      <h1><a href="#home" class="scroll"><img src="img/metageo_logo200 1.png" alt="logo"></a></h1>
 
-        <h1><img src="img/" alt="logo"></h1>
+      <nav class="pc_wrap">
+        <ul class="strip colour-1">
 
-      </hgroup>
-
-
-      <nav class="">
-        <ul>
-
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">MetaGEO Coin</a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
+          <li><a href="index_eng.html"><img src="img/lnagsIcon.png" alt="lnagsIcon"></a></li>
 
         </ul>
       </nav>
@@ -65,21 +61,28 @@
 
       <!--반응형-->
 
-      <div class="">
-
-        <img src="img/" alt="menu_button">
-
+      <div class="menu-trigger icon nav-icon-1">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
 
-      <nav class="">
+      <nav class="mob_nav">
 
-        <ul>
+        <ul class="strip colour-1">
 
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
-          <li><a href="" class="scroll"></a></li>
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">MetaGEO Coin</a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
+          <li><a href="index_eng.html"><img src="img/lnagsIcon.png" alt="lnagsIcon"></a></li>
 
         </ul>
 
@@ -87,22 +90,98 @@
 
       <!--반응형 js-->
       <script type="text/javascript">
+
         $(function () {
-          $("").click(function () {
-            $("").animate({ width: "toggle" }, 250);
+          $(".menu-trigger").click(function () {
+            $(".mob_nav").animate({ width: "toggle" }, 300);
           });
         });
 
       </script>
 
-    </div>
+<script src="js/burger.js"></script>
+<script src="js/header.js"></script>
+</div>
 
   </header>
 
   <main>
+    <section id="home">
+      <div class="home_wrap container">
+        <div class="txt_wrap">
+          <div class="txt_area">
+            <h2>MetaGEO</h2>
+            <p>Real Estate Transactions Enters A New Era With Blockchain <br>
+              A new source of income, a new market, a new future
+            </p>
+            <p>Breaking the practice of thousands of years of real estate transactions, <br>
+              new markets through the latest blockchain technology MetaGeo is opening up. 
+            </p>
+          </div>
+          <div class="btn_area">
+            <button
+              class="button button--wayra button--border-medium button--text-upper button--size-s button--text-thick button--inverted"
+              type="button" onclick="location.href='MetaGeo_whitepaper_Eng(ver01).pdf' "
+              >
+              Whitepaper
+            </button>
+            <button
+              class="button button--wayra button--border-medium button--text-upper button--size-s button--text-thick button--inverted">
+              Wallet
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="about">
+      <div class="intro1 container">
+        <div class="intro1_txt">
+          <h3>Intro</h3>
+          <p>There are too many difficulties and risks lurking in the trade of large real estate items such as resorts and hotels. <br>
+            Inefficiencies in the transaction process, high intermediate fees, and opportunities only allowed for some capitalists
+            Through MetaGeo's blockchain NFT transaction, anyone in the world can easily and quickly trade 24 hours a day
+            We will enable large-scale real estate transactions that anyone can participate in, which will give the market a great boost.
+          </p>
+        </div>
+        <div class="intro1_img">
+          <div class="img_txt">
+            <h4>NFT</h4>
+            <h5 class="line">BLOCKCHAIN</h5>
+            <h5>NFT REAL ESTATE</h5>
+          </div>
+          <div class="img_img">
+            <img src="img/intro.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about2">
+      <div class="intro2 container">
+        <h3><span>MetaGEO</span> BLOCKCHAIN PROTOCOL</h3>
+        <p>Blockchain transparency, data consistency, and objectivity can greatly <br> contribute to the efficiency and transaction transparency of all real transactions as well as real estate transactions.
+        </p>
+
+        <p>With billions of transactions so far proven to be safe, cost-effective and transparent, the ERC721 solution is also recognized for transparency and efficiency through efficient NFT transactions.Real estate transactions. You can no longer rely on limited information and opaque valuation criteria, but have transactions that ensure safety and transparency that anyone can agree to
+        </p>
+      </div>
+    </section>
+
+    <section id="about3">
+      <div class="intro3 container">
+        <h3><span>MetaGEO</span> project participants and benefits for each participant</h3>
+        <img src="img/intro2.png" alt="intro2img">
+        <ul>
+          <li>· Real estate owner hoping to submit NFT works</li>
+          <li>· Real Estate NFT Trading Platform</li>
+          <li>· Company specializing in real estate NFT production</li>
+          <li>· Real Estate NFTs Individual and Institutional Investors</li>
+        </ul>
+      </div>
+    </section>
   </main>
-  
+
   <footer>
 
   </footer>

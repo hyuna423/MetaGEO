@@ -109,6 +109,9 @@ header .pc_wrap {
 /*모바일3 갤럭시*/
 
   @media screen and (max-width:425px) {
+    #about::before {
+      height: 56%;
+  }
 
 }
 

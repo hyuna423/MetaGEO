@@ -1,20 +1,31 @@
 
-
+#home::before {
+  width: 45%;
+}
     
 /*데탑*/
 @media screen and (max-width:1440px) {
+  #home::before {
+    width: 55%;
+}
 }
 
 
 
 /*노트북*/
   @media screen and (max-width:1024px) {
+    #home::before {
+      width: 64%;
+  }
 }
 
 
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+    #home::before {
+      width: 84%;
+  }
 }
 
 
@@ -30,6 +41,9 @@
 
 
 @media screen and (max-width:576px) {
+  #home::before {
+    width: 100%;
+}
 
 }
 
