@@ -21,7 +21,297 @@ h3{
 }
 
 
+/*coin*/
+#coin {
+  width: 100%;
+  background: url(../img/coin_bg.png) no-repeat center;
+  background-size: cover;
+  padding: 200px 0;
+  color: #fff;
+}
+
+#coin .coin_wrap {
+  width: 100%;
+}
+
+#coin .coin_wrap h3{
+  text-align: right;
+  width: 35%;
+  margin: 0 0 -120px 800px ;
+
+}
+
+#coin .coin_wrap .coin_content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+#coin .coin_wrap .coin_content .coin_left{
+  width: 50%;
+}
+
+#coin .coin_wrap .coin_content .coin_left img{
+  max-width: 60%;
+  margin-top: 50px;
+}
 
 
+#coin .coin_wrap .coin_content .coin_right{
+  width: 40%;
+}
 
-/*헤더*/
+#coin .coin_wrap .coin_content .coin_right .coin_right_percentage{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#coin .coin_wrap .coin_content .coin_right .coin_right_percentage div.coin_right_per_list{
+  margin-bottom: 50px;
+}
+
+#coin .coin_wrap .coin_content .coin_right .coin_right_percentage div.coin_right_per_list > span{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: #2454A4;
+  margin-right: 20px;
+  vertical-align: text-top;
+}
+
+.coin_box2 {
+  background-color: #4C8BC7 !important;
+}
+.coin_box3 {
+  background-color: #3B72B9 !important;
+}
+.coin_box4 {
+  background-color: #599ED5 !important;
+}
+.coin_box5 {
+  background-color: #477FBF !important;
+}
+.coin_box6 {
+  background-color: #6CAEE0 !important;
+}
+
+.coin_right_txt_box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coin_right_txt_box .coin_right_txt_left {
+  width: 55%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.coin_right_txt_box .coin_right_txt_right {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coin_right_txt_box div.coin_right_txt {
+  border-right: 2px solid #fff;
+  padding-right: 17px;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+.coin_right_txt_box div.coin_right_txt.total{
+  border-right: none !important;
+}
+
+
+/*roadmap*/
+
+#roadmap {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #E8E8E8;
+}
+
+#roadmap .roadmap_wrap{
+  width: 100%;
+}
+
+
+#roadmap .roadmap_wrap .rdmp_content{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+#roadmap .roadmap_wrap .rdmp_content .rdmp_box{
+  width: 30%;
+  height: 600px;
+  padding: 4% 3%;
+  box-shadow: 6px 6px 4px rgba(0,0,0,.25);
+  color: #fff;
+  font-size: 0.9em;
+}
+
+#roadmap .roadmap_wrap .rdmp_content .rdmp_box.rdmp_box1{
+  background: url(../img/rdmp1.png) no-repeat center bottom;
+  background-size: cover;
+  background-color: rgba(78,82,127,.8);
+}
+
+#roadmap .roadmap_wrap .rdmp_content .rdmp_box.rdmp_box2{
+  background: url(../img/rdmp2.png) no-repeat center 10px;
+  background-size: cover;
+  background-color: rgba(66,106,178,.8);
+}
+
+#roadmap .roadmap_wrap .rdmp_content .rdmp_box.rdmp_box3{
+  background: url(../img/rdmp3.png) no-repeat center bottom;
+  background-size: cover;
+  background-color: rgba(91,66,149,.8);
+}
+
+#roadmap .roadmap_wrap .rdmp_content .rdmp_box h4{
+  position: relative;
+  margin-bottom: 15%;
+}
+
+#roadmap .roadmap_wrap .rdmp_content .rdmp_box h4::after{
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: #fff;
+}
+
+#roadmap .roadmap_wrap .rdmp_content .rdmp_box p{
+  margin-bottom: 15%;
+}
+
+.rdmap_br{
+  display: none;
+}
+
+/*contact*/
+
+#contact{
+  width: 100%;
+  padding: 100px 0;
+}
+
+#contact .contact_wrap{
+  width: 100%;
+}
+
+#contact .contact_wrap h3{
+  text-align: center;
+}
+
+#contact .contact_wrap form{
+  width: 100%;
+  margin-top: 5%;
+}
+
+#contact .contact_wrap form .email, #contact .contact_wrap form #message{
+  width: 75%;
+  background-color: rgba(20,75,182,.5);
+  border: none;
+  padding: 2%;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+input::placeholder, textarea::placeholder{
+  color: #FDFDFD;
+}
+
+#contact .contact_wrap form .email{
+  margin-bottom: 2%;
+  height: 80px;
+}
+
+#contact .contact_wrap form #message{
+  height: 150px;
+}
+
+#contact .contact_wrap form .send{
+  background-color: #2F2F2F;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2em;
+  width: 18%;
+  height: 260px;
+  margin-left: 25px;
+  margin-top: -110px;
+  border-radius: 10px;
+  display: inline-block;
+  transition: all .5s;
+}
+
+#contact .contact_wrap form .send:hover{
+  background-color:#003C6B;
+  box-shadow: 0 0 20px #003C6B;
+  font-size: 1.3em;
+}
+
+/*footer*/
+
+footer{
+  width: 100%;
+  background-color: #2f2f2f;
+  padding: 80px 0;
+}
+
+footer .footer_wrap{
+  width: 100%;
+}
+
+footer .footer_wrap .footer_content{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+footer .footer_wrap .footer_content h4{
+  color: #DADADA;
+  margin-bottom: 25%;
+}
+
+footer .footer_wrap .footer_content p{
+  color: #9e9e9e;
+  font-weight: 600;
+}
+
+footer .footer_wrap .footer_content .community a{
+  display: inline-block;
+  width: 44%;
+  margin-right: 5px;
+  text-align: center;
+}
+
+footer .footer_wrap .footer_content .community a img{
+  max-width: 100%;
+  transition: all .5s;
+}
+
+footer .footer_wrap .footer_content .community a img:hover{
+  transform: scale(1.1);
+}
+
+footer .footer_wrap p.ps{
+  width: 100%;
+  text-align: center;
+  color: #4E4E4E;
+  font-size: 0.8em;
+}

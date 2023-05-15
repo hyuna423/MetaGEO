@@ -1,20 +1,92 @@
 
-
+#coin .coin_wrap .coin_content .coin_right {
+  width: 50%;
+}
     
+#coin .coin_wrap h3{
+  margin: 0 0 -120px 729px;
+}
+
+.coin_right_txt_box .coin_right_txt_left{
+  justify-content: space-around;
+}
+
+.coin_right_txt_box .coin_right_txt_right{
+  justify-content: space-around;
+}
+
+.coin_right_txt_box div.coin_right_txt{
+  padding-right: 32px;
+}
+
+
 /*데탑*/
 @media screen and (max-width:1440px) {
+
+  /*coin*/
+
+  #coin .coin_wrap h3 {
+    margin: 0 0 -120px 421px;
+  }
+
+  #coin .coin_wrap .coin_content .coin_right .coin_right_percentage{
+    font-size: 0.9em;
+  }
+  
+  #coin .coin_wrap .coin_content .coin_right {
+    width: 68%;
+  }
+
+  #coin .coin_wrap .coin_content .coin_left img{
+    max-width: 80%;
+  }
+
+
 }
 
 
 
 /*노트북*/
   @media screen and (max-width:1024px) {
+
+    /*coin*/
+    #coin .coin_wrap h3 {
+      margin: 0 0 -120px 341px;
+  }
+
+  .coin_right_txt_box div.coin_right_txt{
+    padding-right: 10px;
+  }
+
+
+  /*roadmap*/
+  .rdmap_br{
+    display: none;
+  }
+
+
+
 }
 
 
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+
+    /*coin*/
+
+    #coin .coin_wrap h3 {
+      margin: 0 0 -120px 9px;
+  }
+
+  #coin .coin_wrap .coin_content .coin_right{
+    width: 100%;
+  }
+
+  #coin .coin_wrap .coin_content .coin_left img{
+    margin-top: 170px;
+  }
+
 }
 
 
