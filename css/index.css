@@ -103,6 +103,18 @@ header .pc_wrap ul li a:hover::after{
   height: 4px;
 }
 
+header .pc_wrap ul li:last-child a::after{
+  display: none;
+}
+header .pc_wrap ul li:last-child a{
+  display: block;
+  transition: all .2s;
+}
+header .pc_wrap ul li:last-child a:hover{
+  transform: scale(1.1);
+}
+
+
 header .pc_wrap ul li a img {
   max-width: 30px;
 }
@@ -248,12 +260,17 @@ header .pc_wrap ul li a img {
   margin: auto;
 }
 
+
+
 .mob_nav ul li a:hover::after{
   opacity: 1;
   top: 100%;
   height: 4px;
 }
 
+.mob_nav ul li:last-child a::after{
+  display: none;
+}
 
 .menu-trigger {
   display: none;
