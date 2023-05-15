@@ -1,54 +1,249 @@
-
 /*데탑*/
 @media screen and (max-width:1440px) {
 
   #home::before {
     width: 46%;
   }
+
+  /*coin*/
+
+  #coin .coin_wrap h3 {
+    width: 50%;
+    margin: 0 0 -126px 452px;
+  }
+
+
+  #coin .coin_wrap .coin_content .coin_left img {
+    margin-top: 100px;
+    max-width: 70%;
+  }
+
+
+  #coin .coin_wrap .coin_content .coin_right {
+    width: 60%;
+  }
+
+
+  /*roadmap*/
+  #roadmap .roadmap_wrap .rdmp_content .rdmp_box {
+    width: 32%;
+    height: 490px;
+    font-size: 0.75em;
+  }
+
+
+  /*contact*/
+
+  #contact .contact_wrap form .send {
+    width: 20%;
+    height: 250px;
+    margin-top: -99px;
+  }
 }
 
 
 
 /*노트북*/
-  @media screen and (max-width:1024px) {
-    h3 {
-      font-size: 2.5rem;
-    }
+@media screen and (max-width:1024px) {
+  h3 {
+    font-size: 2.5rem;
+  }
 
-    #home::before {
-      width: 50%;
-    }
+  #home::before {
+    width: 50%;
+  }
+
+  /*coin*/
+  #coin .coin_wrap .coin_content .coin_right {
+    width: 70%;
+    font-size: 0.9em;
+  }
+
+  #coin .coin_wrap h3 {
+    width: 60%;
+    margin: 0 0 -126px 340px;
+  }
+
+  #coin .coin_wrap .coin_content .coin_left img {
+    max-width: 80%;
+  }
+
+  /*roadmap*/
+
+  #roadmap .roadmap_wrap .rdmp_content .rdmp_box {
+    height: 420px;
+    padding: 4% 2.5%;
+  }
+
+  .rdmap_br {
+    display: block;
+  }
+
+  /*contact*/
+
+  #contact .contact_wrap form .email,
+  #contact .contact_wrap form #message {
+    width: 70%;
+  }
+
+  #contact .contact_wrap form .send {
+    width: 25%;
+  }
+
+
+  /*footer*/
+
+  footer .footer_wrap .footer_content h4 {
+    font-size: 1.1em;
+  }
+
+  footer .footer_wrap .footer_content .community a img {
+    max-width: 80%;
+  }
+
+
+
 }
 
 
 
-  /*아이패드 (768px)*/
-  @media screen and (max-width:991px) {
+/*아이패드 (768px)*/
+@media screen and (max-width:991px) {
 
-    header .pc_wrap {
-      width: 80%;
+  header .pc_wrap {
+    width: 80%;
   }
 
   #home::before {
     width: 70%;
-}
+  }
 
-#about .intro1 .intro1_txt p br{
-  display: none;
-}
+  #about .intro1 .intro1_txt p br {
+    display: none;
+  }
 
-#about::before {
-  height: 59%;
-}
+  #about::before {
+    height: 59%;
+  }
 
-#about .intro1 .intro1_txt {
-  margin-bottom: 15%;
-}
+  #about .intro1 .intro1_txt {
+    margin-bottom: 15%;
+  }
 
-#about3 ul li {
-  width: 48%;
-  font-size: 1rem;
-}
+  #about3 ul li {
+    width: 48%;
+    font-size: 1rem;
+  }
+
+
+
+  /*coin*/
+
+  #coin {
+    padding: 100px 0;
+  }
+
+  #coin .coin_wrap .coin_content {
+    flex-direction: column;
+  }
+
+  #coin .coin_wrap h3 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #coin .coin_wrap .coin_content .coin_right .coin_right_percentage {
+    justify-content: space-around;
+  }
+
+  #coin .coin_wrap .coin_content .coin_left {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+
+  #coin .coin_wrap .coin_content .coin_right {
+    width: 100%;
+  }
+
+  .coin_right_txt_box .coin_right_txt_right {
+    justify-content: space-around;
+  }
+
+  .coin_right_txt_box div.coin_right_txt {
+    font-size: 1em;
+  }
+
+
+
+  /*roadmap*/
+
+  #roadmap .roadmap_wrap .rdmp_content {
+    flex-direction: column;
+  }
+
+  #roadmap .roadmap_wrap .rdmp_content .rdmp_box {
+    width: 80%;
+    margin: 0 auto 5%;
+    height: 647px;
+    padding: 10%;
+    font-size: 1em;
+  }
+
+  #roadmap .roadmap_wrap .rdmp_content .rdmp_box p {
+    margin-bottom: 10%;
+  }
+
+
+  /*contact*/
+
+  #contact .contact_wrap form .email {
+    height: 50px;
+    border-radius: 5px;
+  }
+
+  #contact .contact_wrap form #message {
+    height: 125px;
+    border-radius: 5px;
+  }
+
+  #contact .contact_wrap form .send {
+    width: 28%;
+    height: 190px;
+    margin-top: -65px;
+    margin-left: 8px;
+    border-radius: 5px;
+  }
+
+
+  /*footer*/
+
+  footer .footer_wrap .footer_content {
+    flex-direction: column;
+  }
+
+  footer .footer_wrap .footer_content h4 {
+    margin-bottom: 5%;
+  }
+
+  footer .footer_wrap .footer_content>div {
+    margin-bottom: 10%;
+    text-align: center;
+  }
+
+  footer .footer_wrap .footer_content .community a {
+    width: 10%;
+    margin-right: 10px;
+  }
+
+  footer .footer_wrap .footer_content .community a:last-child {
+    margin-right: 0 !important;
+  }
+
+  footer .footer_wrap .footer_content .community a img {
+    max-width: 100%;
+  }
 }
 
 
@@ -57,29 +252,96 @@
 
 @media screen and (max-width:767px) {
 
-.menu-trigger {
-  display: block;
-}
+  .menu-trigger {
+    display: block;
+  }
 
-header .pc_wrap {
-  display: none;
-}
+  header .pc_wrap {
+    display: none;
+  }
 
-#home::before {
-  width: 82%;
-}
+  #home::before {
+    width: 82%;
+  }
 
-#about::before {
-  height: 49%;
-}
+  #about::before {
+    height: 49%;
+  }
 
-#about2 p br{
-  display: none;
-}
+  #about2 p br {
+    display: none;
+  }
 
-#about3 ul li {
-  width: 100%;
-}
+  #about3 ul li {
+    width: 100%;
+  }
+
+
+  /*coin*/
+
+  #coin .coin_wrap .coin_content .coin_left {
+    margin-bottom: 15%;
+  }
+
+  #coin .coin_wrap .coin_content .coin_left img {
+    max-width: 100%;
+  }
+
+  #coin .coin_wrap .coin_content .coin_right .coin_right_percentage {
+    display: block;
+  }
+
+  .coin_right_txt_box {
+    flex-direction: column;
+    border: 1px solid #fff;
+    padding: 3%;
+  }
+
+  .coin_right_txt_box .coin_right_txt_left {
+    width: 100%;
+    margin-bottom: 5%;
+    text-align: left !important;
+  }
+
+  .coin_right_txt_box .coin_right_txt_right {
+    width: 100%;
+    text-align: left !important;
+  }
+
+  .coin_right_txt_box div.coin_right_txt {
+    border-right: none;
+    width: 200px;
+  }
+
+  /*roadmap*/
+
+  #roadmap .roadmap_wrap .rdmp_content .rdmp_box {
+    width: 100%;
+  }
+
+
+  /*contact*/
+
+  #contact .contact_wrap form .email,
+  #contact .contact_wrap form #message {
+    width: 100%;
+  }
+
+  #contact .contact_wrap form .email {
+    margin-bottom: 5%;
+    height: 65px;
+  }
+
+  #contact .contact_wrap form #message {
+    height: 230px;
+  }
+
+  #contact .contact_wrap form .send {
+    height: 65px;
+    margin-top: 5%;
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 
@@ -93,7 +355,7 @@ header .pc_wrap {
     height: 70%;
     top: 55%;
     transform: translateY(-50%);
-}
+  }
 
   #about .intro1 .intro1_img {
     flex-direction: column;
@@ -101,16 +363,40 @@ header .pc_wrap {
 
   #about::before {
     height: 59%;
-}
+  }
+
+  /*coin*/
+
+  .coin_right_txt_box div.coin_right_txt {
+    font-size: 0.9em;
+  }
+
+  /*roadmap*/
+
+  #roadmap .roadmap_wrap .rdmp_content .rdmp_box {
+    height: 500px;
+  }
 }
 
 
 
 /*모바일3 갤럭시*/
 
-  @media screen and (max-width:425px) {
-    #about::before {
-      height: 56%;
+@media screen and (max-width:425px) {
+  #about::before {
+    height: 56%;
+  }
+
+  /*coin*/
+
+  .coin_right_txt_box div.coin_right_txt {
+    font-size: 0.85em;
+  }
+
+  /*roadmap*/
+
+  #roadmap .roadmap_wrap .rdmp_content .rdmp_box {
+    font-size: 0.9em;
   }
 
 }
@@ -118,6 +404,4 @@ header .pc_wrap {
 
 
 /*모바일4 아이폰*/
-    @media screen and (max-width:375px) {
-
-}
+@media screen and (max-width:375px) {}
