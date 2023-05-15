@@ -30,7 +30,6 @@ h3 span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 
 @media (min-width:1521px) {
@@ -323,7 +322,6 @@ header .pc_wrap ul li a img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 
 #home .home_wrap .txt_wrap p {
